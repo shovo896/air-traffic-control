@@ -1,15 +1,12 @@
- AI-Powered Air Traffic Control & Weather Navigator (Tkinter GUI)
+AI-Powered Air Traffic Control & Weather Navigator (Tkinter GUI)
 
 This Python project simulates an AI-assisted Air Traffic Control System with weather-based navigation decisions. It uses a simple graphical interface built with   Tkinter that allows users to:
-
 - Input multiple aircraft data
 - Detect conflicts
 - Simulate weather conditions
 - Automatically resolve issues using basic AI rules
 
-
-
- 1️. Key Features
+1️. Key Features
 
 1. Add aircraft with position (latitude & longitude), altitude, speed, and heading.
 2. Detect conflicts when aircraft are close in space or altitude.
@@ -23,13 +20,10 @@ This Python project simulates an AI-assisted Air Traffic Control System with wea
 
 1. Aircraft Info Input Section  
    - Enter aircraft ID, position, speed, heading, etc.
-
 2. Aircraft List Log  
    - Shows all the aircraft added to the system.
-
 3. Conflict Detection Button 
    - Starts conflict detection and resolution.
-
 4. Resolved Routes / Output Display 
    - Shows conflict results and decisions made by the AI.
 
@@ -88,8 +82,10 @@ Use the following aircraft data to simulate a scenario:
   *  Altitude: 30000
   * Speed: `500`
   * Heading: 90
+  *
+  *
 
-* Aircraft 2:
+  Aircraft 2:
 
   * ID: B202
   * Latitude: 23.46
@@ -104,7 +100,7 @@ Use the following aircraft data to simulate a scenario:
  6️.Project Files
 
 1. main.py — Entry point of the app
-2. gui.py — All GUI code written in `Tkinter`
+2. gui.py — All GUI code written in Tkinter
 3. README.md — This file
 
 
